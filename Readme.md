@@ -18,7 +18,8 @@ mvn archetype:generate -DgroupId=com.company -DartifactId=my-company -Darchetype
 
 > 2️⃣ Tạo các module child (cmd bên trong parent folder)
 
->```
-mvn archetype:generate -DgroupId=com.company -DartifactId=service-user -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+>
 ```
+mvn archetype:generate -DgroupId=com.company -DartifactId=service-user -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+ ```
 > **⚠️ Chú ý:** Thuộc tính `groupId` và `version` trong các module child có thể không khai báo để đồng bộ với parent
