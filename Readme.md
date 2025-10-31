@@ -12,13 +12,13 @@ Mục đích: các module child sẽ kế thừa các dependency của parent, c
 
 > 1️⃣ Tạo project cha (packing: pom)
 
->```bash
+>```
 mvn archetype:generate -DgroupId=com.company -DartifactId=my-company -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
 
 > 2️⃣ Tạo các module child (cmd bên trong parent folder)
 
->```bash
+>```
 mvn archetype:generate -DgroupId=com.company -DartifactId=service-user -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 ```
 > **⚠️ Chú ý:** Thuộc tính `groupId` và `version` trong các module child có thể không khai báo để đồng bộ với parent
