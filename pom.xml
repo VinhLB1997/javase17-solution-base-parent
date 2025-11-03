@@ -23,6 +23,7 @@
 		<module>service-solution-sample</module>
 		<module>service-core</module>
 		<module>service-library</module>
+		<module>service-server</module>
 	</modules>
 	<dependencies>
 		<dependency>
